@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(58, 58, 58);
+    font-family: "Source Sans Pro",sans-serif;
+}
+
+/*Nav bar CSS*/
+nav {
+    /* CSS to style the nav bar*/
+    .TopNavBar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #980000; /* background color of the navigation bar */
+    }
+
+    .TopNavBar > li {
+        float: left; /*float left*/
+    }
+
+    .TopNavBar > li a { /*centering the text and coloring box*/
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none; 
+    }
+
+    .TopNavBar > li a:hover {
+        background-color: #600000; /* background color when hovering over a link */
+    }
+}
