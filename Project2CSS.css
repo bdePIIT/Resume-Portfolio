@@ -1,6 +1,40 @@
 html {
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(77, 77, 77);
     font-family: "Source Sans Pro",sans-serif;
+}
+
+body {
+    margin-left: 20px;
+    margin-right: 20px; 
+    color: white;
+
+    .bulletList {
+        font-size: 16px;
+    }
+
+    .nestedList {
+        font-size: small;
+    }
+
+    .l1 {
+        font-size: small;
+        margin-left: 22px;
+        margin-right: 22px;
+    }
+}
+
+.content {
+    margin-left: 200px;
+    padding-top: 80px;
+}
+
+.caption {
+    margin-left: 50px;
+}
+
+img {
+    position:relative;
+    left: 50px;
 }
 
 /*Nav bar CSS*/
@@ -11,7 +45,7 @@ nav {
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #980000; /* background color of the navigation bar */
+        background-color: #950098; /* background color of the navigation bar */
     }
 
     .TopNavBar > li {
