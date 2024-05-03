@@ -23,6 +23,19 @@ body {
     }
 }
 
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+
 .content {
     margin-left: 200px;
     padding-top: 80px;
