@@ -56,6 +56,10 @@ img {
     left: 50px;
 }
 
+a {
+    color: #e627ea;
+}
+
 /*Nav bar CSS*/
 nav {
     /* CSS to style the nav bar*/
