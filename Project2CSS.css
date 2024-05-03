@@ -23,6 +23,12 @@ body {
     }
 }
 
+figure > img {
+    width: 30%;
+    margin-left: -50px;
+}
+
+
 .bold {
     font-weight: bold;
 }
